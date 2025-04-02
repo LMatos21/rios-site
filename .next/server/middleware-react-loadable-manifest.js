@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"index.tsx -> ../components/custom/Map\":{\"id\":\"index.tsx -> ../components/custom/Map\",\"files\":[\"static/chunks/components_custom_Map_tsx.js\"]}}"
