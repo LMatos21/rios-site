@@ -7,11 +7,8 @@ import dynamic from "next/dynamic";
 
 const Map = dynamic(() => import("../components/custom/Map"), { ssr: false });
 
-type MotionDivProps = HTMLMotionProps<"div">;
+const MotionDiv = motion.div;
 
-const MotionDiv = (props: MotionDivProps) => (
-  <motion.div {...props} />
-);
 
 export default function RiosTransportes() {
   return (
